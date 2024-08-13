@@ -1,0 +1,73 @@
+{
+    "initial_working_directory": "~",
+    "default_project_location": "/Users/lorenzo/Documents/",
+    "new_proj_use_renv": true,
+    "full_project_path_in_window_title": true,
+    "editor_theme": "Tomorrow",
+    "syntax_color_console": true,
+    "rainbow_parentheses": true,
+    "help_font_size_points": 12,
+    "font_size_points": 12,
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet1",
+            "Console",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Build",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer",
+            "Presentations"
+        ],
+        "hiddenTabSet": [
+            "Connections",
+            "VCS",
+            "Tutorial"
+        ],
+        "console_left_on_top": true,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "vertically_align_arguments_indent": false,
+    "indent_guides": "gray",
+    "insert_native_pipe_operator": true,
+    "sync_files_pane_working_dir": true,
+    "posix_terminal_shell": "zsh",
+    "terminal_track_environment": false,
+    "console_double_click_select": true,
+    "pdf_previewer": "system",
+    "use_tinytex": true,
+    "rmd_viewer_type": "pane",
+    "show_rmd_render_command": true,
+    "graphics_antialiasing": "subpixel",
+    "graphics_backend": "ragg",
+    "highlight_r_function_calls": true,
+    "enable_text_drag": false,
+    "wrap_tab_navigation": false,
+    "soft_wrap_r_files": true,
+    "scroll_past_end_of_document": true,
+    "auto_append_newline": true,
+    "highlight_selected_line": true,
+    "jobs_tab_visibility": "shown",
+    "save_workspace": "never",
+    "load_workspace": false,
+    "always_save_history": false,
+    "restore_last_project": false,
+    "source_with_echo": true,
+    "check_unexpected_assignment_in_function_call": true,
+    "python_type": "system",
+    "python_version": "3.12.4",
+    "python_path": "/opt/homebrew/bin/python3",
+    "style_diagnostics": true,
+    "doc_outline_show": "all"
+}

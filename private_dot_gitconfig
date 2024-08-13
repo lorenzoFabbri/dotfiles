@@ -1,0 +1,16 @@
+[user]
+	name = Lorenzo Fabbri
+	email = lorenzo.fabbri92sm@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICheajd27EqLnWFzc5zh6BW4urI0mTqT+0bj6KJ5zSM4
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[core]
+	excludesfile = /Users/lorenzo/.gitignore_global
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
