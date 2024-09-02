@@ -1,7 +1,6 @@
-export COMPUTER_NAME="Lorenzo's MacBook Pro"
+export COMPUTER_NAME="Lorenzo's MacBook Air"
 export ZDOTDIR=~/.config/zsh
 
 if [[ ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
-
