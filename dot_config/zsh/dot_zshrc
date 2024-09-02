@@ -3,6 +3,7 @@
 
 #!/usr/bin/env zsh
 
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 source $ZDOTDIR/paths.zsh
 
 export ZSH="$HOME/.oh-my-zsh"
