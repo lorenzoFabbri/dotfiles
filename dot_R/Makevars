@@ -13,6 +13,7 @@ HI=/opt/homebrew/include
 XH=$(shell xcrun -show-sdk-path)
 
 CCACHE=$(HB)/ccache
+CCACHE=
 
 MAKE=make -j4
 
@@ -48,7 +49,7 @@ CPPFLAGS=-isysroot $(XH) -I$(HI) \
 LDFLAGS+=-L$(HO)/llvm/lib/c++ -Wl,-rpath,$(HO)/llvm/lib/c++
 LDFLAGS+=-L$(HO)/jpeg/lib
 
-$ OpenMP flags
+# OpenMP flags
 SHLIB_OPENMP_CFLAGS=-fopenmp
 SHLIB_OPENMP_CXXFLAGS=-fopenmp
 SHLIB_OPENMP_CXX11FLAGS=-fopenmp
